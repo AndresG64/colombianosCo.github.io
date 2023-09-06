@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receta Bandeja paisa</title>
+    <script src="https://kit.fontawesome.com/34d3836add.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            border: none;
+            outline: none;
+            box-sizing: border-box;
+        }
+        h1{
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        .nombre_logo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding-right: 20px;
+        }
+        .nombre_logo img{
+            width: 100px;
+        }
+
+        nav ul{
+            display: flex;
+            gap: 20px;
+            padding-left:40px;
+        }
+        main{
+            width: 100%;
+            padding: 20px 20px 0 20px;
+        }
+        article img{
+            width: 350px;
+        }
+        section{
+            margin-top: 20px;
+        }
+        main ul li{
+            list-style: inside;
+        }
+        footer{
+            margin-top: 20px;
+            text-align: center;
+        }
+        .redes{
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin: 10px 0 20px 0;
+        }
+        .redes div i{
+            font-size: 50px;
+            color: black;
+        }
+        .redes #instagram :hover{
+            color: rgb(192, 0, 90);
+            transform: scale(1.1);
+            transform: translate(-2px,-2px);
+        }
+        .redes #whatsapp :hover{
+            color: rgb(9, 211, 76);
+            transform: scale(1.1);
+            transform: translate(2px,-2px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nombre_logo">
+            <h1 >Colombianos en la cocina</h1>
+            <img src="src/logo.png" alt="">
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="">Ingredientes típicos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Mute Santandereano</h2>
+            <img src="src/muteSinFondo.png" alt="">
+            <section>
+                <h3>Descripción</h3>
+                <p>El Mute Santandereano es un plato tradicional de Colombia, específicamente de la región de Santander. Este guiso espeso combina ingredientes como frijoles, carne de cerdo, yuca, plátano, maíz y cilantro, creando un plato reconfortante y lleno de sabor que representa la riqueza de la gastronomía regional.</p>
+            </section>
+            <section>
+                <h3>Ingredientes</h3>
+                <ul>
+                    <li>Frijoles.</li>
+                    <li>Cebolla larga.</li>
+                    <li>Zanahoria.</li>
+                    <li>Apio.</li>
+                    <li>Ahuyama.</li>
+                    <li>Papa negra.</li>
+                    <li>Carne de cerdo.</li>
+                    <li>Yuca.</li>
+                    <li>Plátano verde.</li>
+                    <li>Maíz.</li>
+                    <li>Cilantro.</li>
+                    <li>Hojas de guasca.</li>
+                    <li>Sal y pimienta al gusto.</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Paso a paso</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ixts2KFOPns?si=BWSoOSAUs9T9EHOL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+        </article>
+        
+    </main>
+    <footer>
+        <h3>Sitio web de comida "Colombianos en la cocina" desarrollado por Andres David Quiñonez Rueda. Contacto: andresd.quinonez@udea.edu.co</h3>
+        <div class="redes">
+            <div id="instagram">
+                <a href="https://www.instagram.com/artesanales_aa/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div id="whatsapp">
+                <a href="https://www.instagram.com/artesanales_aa/"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>

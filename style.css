@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    box-sizing: border-box;
+}
+h1{
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    padding-left:40px;
+}
+
+.imagenes_header{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin: 20px 0px 5px 0px;
+    justify-content: center;
+}
+.imagenes_header img{
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 12px 12px 0px 0px rgba(0, 0, 0, 0.1);
+}

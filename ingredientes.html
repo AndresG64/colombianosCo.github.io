@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ingredientes Típicos</title>
+    <script src="https://kit.fontawesome.com/34d3836add.js" crossorigin="anonymous"></script>
     <style>
         *{
             margin: 0;
@@ -34,6 +35,48 @@
             gap: 20px;
             padding-left:40px;
         }
+        main{
+            padding: 0 10px 0 20px;
+        }
+        .ingredientes section img{
+            height: 300px;
+        }
+        .ingredientes ul li{
+            list-style: inside;
+        }
+        .ingredientes section{
+            margin-top: 30px;
+        }
+        .ingredientes section p{
+            margin-bottom: 15px;
+        }
+        .ingredientes section h3{
+            margin-bottom: 15px;
+        }
+        footer{
+            margin-top: 20px;
+            text-align: center;
+        }
+        .redes{
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin: 10px 0 20px 0;
+        }
+        .redes div i{
+            font-size: 50px;
+            color: black;
+        }
+        .redes #instagram :hover{
+            color: rgb(192, 0, 90);
+            transform: scale(1.1);
+            transform: translate(-2px,-2px);
+        }
+        .redes #whatsapp :hover{
+            color: rgb(9, 211, 76);
+            transform: scale(1.1);
+            transform: translate(2px,-2px);
+        }
     </style>
 </head>
 <body>
@@ -50,5 +93,57 @@
             </ul>
         </nav>
     </header>
+    <main class="ingredientes">
+        <section>
+            <h3>Platano</h3>
+            <img src="src/platano.jpg" alt="">
+            <article>
+                <p>El plátano, una fruta tropical de pulpa dulce y textura versátil, es un ingrediente esencial en la gastronomía colombiana. Se usa en diversas preparaciones, como:</p>
+                <ul>
+                    <li>Plátano frito: Deliciosas rodajas doradas</li>
+                    <li>Patacón: Plátano verde machacado y frito.</li>
+                    <li>Bollo: Masa de plátano rellena.</li>
+                    <li>Arroz con plátano: Complemento ideal para guisos y carnes. El plátano aporta sabor y carácter a los platos típicos de Colombia.</li>
+                </ul>
+            </article>
+        </section>
+        <section>
+            <h3>Yuca</h3>
+            <img src="src/yuca.jpg" alt="">
+            <article>
+                <p>La yuca, raíz tuberosa de sabor neutro, es un pilar en la cocina colombiana. Su textura suave y amilácea la hace ideal para platos típicos como:</p>
+                <ul>
+                    <li>Yuca frita: Deliciosas tiras crujientes.</li>
+                    <li>Ajiaco: Sopa espesa con yuca.</li>
+                    <li>Sancocho: Guiso abundante con yuca, carne y más. La yuca añade sustancia y sabor a estos platillos tradicionales de Colombia.</li>
+                </ul>
+            </article>
+        </section>
+        <section>
+            <h3>Frijoles</h3>
+            <img src="src/frijoles.jpg" alt="">
+            <article>
+                <p>Los frijoles, una leguminosa de sabor terroso y textura cremosa, son un ingrediente fundamental en la cocina colombiana. Se utilizan en diversos platos típicos, como:</p>
+                <ul>
+                    <li>Bandeja Paisa: Servidos con arroz, carne y más.</li>
+                    <li>Ajiaco: Enriqueciendo esta espesa sopa.</li>
+                    <li>Frijoles Antioqueños: Cocidos con chicharrón.</li>
+                    <li>Frijoles con hogao: Una deliciosa guarnición. Los frijoles aportan sabor y nutrición a la cocina tradicional de Colombia.</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h3>Sitio web de comida "Colombianos en la cocina" desarrollado por Andres David Quiñonez Rueda. Contacto: andresd.quinonez@udea.edu.co</h3>
+        <div class="redes">
+            <div id="instagram">
+                <a href="https://www.instagram.com/artesanales_aa/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div id="whatsapp">
+                <a href="https://www.instagram.com/artesanales_aa/"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        
+    </footer>
 </body>
 </html>

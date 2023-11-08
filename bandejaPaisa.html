@@ -14,6 +14,7 @@
             border: none;
             outline: none;
             box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
         }
         body{
             display: flex;
@@ -51,6 +52,25 @@
             gap: 20px;
             padding-left:40px;
         }
+        nav ul a{
+            color: black;
+            transition: all 0.3s ease 0s;
+        }
+        nav ul a:hover{
+            border-bottom: 1px solid #2ab200;
+            border-radius: 5px;
+            color: #2ab200;
+        }
+        nav{
+            width: 100%;
+            max-width: 1200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color:#dfdfdfb2; 
+            padding: 10px;
+            border-radius: 0 0 5px 5px;
+        }
         main{
             width: 100%;
             padding: 20px 20px 0 20px;
@@ -86,7 +106,7 @@
             color: white;
         }
         .redes #instagram :hover{
-            color: rgb(192, 0, 90);
+            color: rgb(231, 70, 204);
             transform: scale(1.1);
             transform: translate(-2px,-2px);
             transition: 0.2s;
